@@ -1,0 +1,10 @@
+.parent {
+   padding: 20px;
+   background-color: rgb(169, 144, 238);
+   border-radius: 10px;
+   color: rgb(255, 255, 255);
+}
+
+.parent__header {
+   font-style: italic;
+}

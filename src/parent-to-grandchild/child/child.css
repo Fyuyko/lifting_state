@@ -1,0 +1,14 @@
+.child {
+   padding: 20px;
+   border-radius: 10px;
+   color: #fff;
+   background-color: rgb(106, 36, 219);   
+}
+
+.grand__child {
+   background-color: rgb(75, 24, 158);
+}
+
+.child__header {
+   font-style: italic;
+}

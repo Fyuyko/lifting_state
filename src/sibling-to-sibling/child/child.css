@@ -1,0 +1,14 @@
+.child {
+   padding: 20px;
+   border-radius: 10px;
+   color: #fff;
+   background-color: rgb(106, 36, 219);   
+}
+
+.child__one {
+   margin-bottom: 20px;
+}
+
+.child__header {
+   font-style: italic;
+}

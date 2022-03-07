@@ -1,25 +1,36 @@
-import logo from './logo.svg';
+import ParentToChild from './parent-to-child/ParentToChild';
+import ChildToParent from './child-to-parent/ChildToParent';
+import SiblingToSibling from './sibling-to-sibling/SiblingToSibling';
+import ParentToGrandchild from './parent-to-grandchild/ParentToGrandchild';
+
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+      <div className="app">
 
-export default App;
+        <div className="block">
+          <p>Передача состояния от родительского компонента к дочернему</p>
+          <ParentToChild />
+        </div>
+
+        <div className="block">
+          <p>Передача состояния от дочернего компонента к родительскому</p>
+          <ChildToParent />
+        </div>
+
+        <div className="block">
+          <p>Передача состояния от ребенка к ребенку</p>
+          <SiblingToSibling />
+        </div>
+
+        <div className="block">
+          <p>Передача состояния от родительского компонента к внучатому</p>
+          <ParentToGrandchild />
+        </div>
+
+      </div>
+    </>
+  )
+}
