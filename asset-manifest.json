@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lifting_state/static/css/main.dcb02f40.css",
+    "main.js": "/lifting_state/static/js/main.7d8c7461.js",
+    "index.html": "/lifting_state/index.html",
+    "main.dcb02f40.css.map": "/lifting_state/static/css/main.dcb02f40.css.map",
+    "main.7d8c7461.js.map": "/lifting_state/static/js/main.7d8c7461.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcb02f40.css",
+    "static/js/main.7d8c7461.js"
+  ]
+}
